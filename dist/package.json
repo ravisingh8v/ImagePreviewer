@@ -1,0 +1,24 @@
+{
+  "name": "ravi-image-previewer",
+  "version": "1.0.7",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravisingh8v/ImagePreviewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravisingh8v/ImagePreviewer/issues"
+  },
+  "homepage": "https://github.com/ravisingh8v/ImagePreviewer#readme",
+  "description": "The library which helps you to reduce your Work and Time.",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,83 @@
+.ip-label {
+  padding: 7px;
+  font-size: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ip-label-below {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-wrap: nowrap;
+  margin: 5px;
+}
+.ip-mark-below::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+}
+.ip-label-above {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-wrap: nowrap;
+  margin: 5px;
+}
+.ip-mark-above::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+}
+
+.ip-label-left {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-wrap: nowrap;
+  margin: 5px;
+}
+.ip-mark-left::after {
+  content: "";
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background-color: red;
+}
+.ip-label-right {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  text-wrap: nowrap;
+  margin: 5px;
+}
+
+.ip-mark-right::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background-color: red;
+}
